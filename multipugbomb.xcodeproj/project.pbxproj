@@ -14,6 +14,9 @@
 		8FE03CA91E81B7F600E99C4B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FE03CA71E81B7F600E99C4B /* LaunchScreen.storyboard */; };
 		8FE03CBF1E81B93C00E99C4B /* PugViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */; };
 		8FE03CC11E81C46900E99C4B /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FE03CC01E81C46900E99C4B /* Extensions.swift */; };
+		D32E0FFE1E82D5E3008E48A2 /* PugAPIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E0FFD1E82D5E3008E48A2 /* PugAPIClient.swift */; };
+		D32E10001E82D6CC008E48A2 /* PugDataStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = D32E0FFF1E82D6CC008E48A2 /* PugDataStore.swift */; };
+		D33B07781E830CFB0046E986 /* PugLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = D33B07771E830CFB0046E986 /* PugLink.swift */; };
 		DA626B068FAEF294B5C8BAA8 /* Pods_multipugbomb.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +33,9 @@
 		8FE03CAA1E81B7F600E99C4B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugViewCell.swift; sourceTree = "<group>"; };
 		8FE03CC01E81C46900E99C4B /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		D32E0FFD1E82D5E3008E48A2 /* PugAPIClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugAPIClient.swift; sourceTree = "<group>"; };
+		D32E0FFF1E82D6CC008E48A2 /* PugDataStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugDataStore.swift; sourceTree = "<group>"; };
+		D33B07771E830CFB0046E986 /* PugLink.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PugLink.swift; sourceTree = "<group>"; };
 		D55C639D7D3E99B294425A33 /* Pods-multipugbombTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-multipugbombTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-multipugbombTests/Pods-multipugbombTests.debug.xcconfig"; sourceTree = "<group>"; };
 		DEC6AB5B04AEF6F7FA61A78D /* Pods_multipugbomb.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multipugbomb.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAD1385552A39ED30CC1973E /* Pods_multipugbombTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_multipugbombTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -92,6 +98,9 @@
 				8FE03CA01E81B7F600E99C4B /* ViewController.swift */,
 				8FE03CC01E81C46900E99C4B /* Extensions.swift */,
 				8FE03CBE1E81B93C00E99C4B /* PugViewCell.swift */,
+				D32E0FFD1E82D5E3008E48A2 /* PugAPIClient.swift */,
+				D33B07771E830CFB0046E986 /* PugLink.swift */,
+				D32E0FFF1E82D6CC008E48A2 /* PugDataStore.swift */,
 				8FE03CA21E81B7F600E99C4B /* Main.storyboard */,
 				8FE03CA51E81B7F600E99C4B /* Assets.xcassets */,
 				8FE03CA71E81B7F600E99C4B /* LaunchScreen.storyboard */,
@@ -224,7 +233,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D33B07781E830CFB0046E986 /* PugLink.swift in Sources */,
 				8FE03CA11E81B7F600E99C4B /* ViewController.swift in Sources */,
+				D32E0FFE1E82D5E3008E48A2 /* PugAPIClient.swift in Sources */,
+				D32E10001E82D6CC008E48A2 /* PugDataStore.swift in Sources */,
 				8FE03C9F1E81B7F600E99C4B /* AppDelegate.swift in Sources */,
 				8FE03CBF1E81B93C00E99C4B /* PugViewCell.swift in Sources */,
 				8FE03CC11E81C46900E99C4B /* Extensions.swift in Sources */,

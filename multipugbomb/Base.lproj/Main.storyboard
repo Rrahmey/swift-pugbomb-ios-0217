@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3fs-oL-CRa">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16C67" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="3fs-oL-CRa">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -13,7 +13,7 @@
         <scene sceneID="BjC-j8-K3D">
             <objects>
                 <collectionViewController id="3fs-oL-CRa" customClass="ViewController" customModule="multipugbomb" customModuleProvider="target" sceneMemberID="viewController">
-                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" misplaced="YES" dataMode="prototypes" id="b9o-f3-FI1">
+                    <collectionView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" dataMode="prototypes" id="b9o-f3-FI1">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -30,7 +30,21 @@
                                 <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                     <rect key="frame" x="0.0" y="0.0" width="375" height="325"/>
                                     <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="sZ2-uw-eds">
+                                            <rect key="frame" x="-8" y="0.0" width="375" height="325"/>
+                                        </imageView>
+                                    </subviews>
                                 </view>
+                                <constraints>
+                                    <constraint firstItem="sZ2-uw-eds" firstAttribute="leading" secondItem="7gU-0N-rS5" secondAttribute="leading" id="1hG-Hg-EwE"/>
+                                    <constraint firstAttribute="trailing" secondItem="sZ2-uw-eds" secondAttribute="trailing" id="6Hx-WC-FUE"/>
+                                    <constraint firstItem="sZ2-uw-eds" firstAttribute="top" secondItem="7gU-0N-rS5" secondAttribute="top" id="B52-h8-Gab"/>
+                                    <constraint firstAttribute="bottom" secondItem="sZ2-uw-eds" secondAttribute="bottom" id="vUy-tH-m2p"/>
+                                </constraints>
+                                <connections>
+                                    <outlet property="pugImage" destination="sZ2-uw-eds" id="iWy-hY-xf7"/>
+                                </connections>
                             </collectionViewCell>
                         </cells>
                         <connections>
